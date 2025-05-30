@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.top-bar {
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
+
+nav {
+    background-color: #b72828;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-links li a,
+.icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.hero {
+   background: url('../Уходовая\ косметика.png');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.overlay h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.overlay p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #b72828;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Медиазапрос для адаптивности */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .icons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .overlay h1 {
+        font-size: 32px;
+    }
+
+    .overlay p {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+}
+.ba{
+    font-size: 30px;
+    color: #b72828;
+  position: absolute; 
+}
+.contact-info{
+    background-color: coral;
+    text-align: center;
+    
+
+ }
+img{
+    width: 40%;
+    height: auto;
+}
