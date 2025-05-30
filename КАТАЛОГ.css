@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: rgb(80, 173, 201);
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 124, 151);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 25px;
+
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rosybrown;
+    padding: 15px;
+border: 1px solid #b65757;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d6b7e;
+    color: white;
+    padding: 10px;
+}
+nav{
+    text-align: center;
+}
+img{
+    width: 400px;
+    height: auto;
+}
+.blur:hover {
+      filter: blur(8px);
+      transition: filter 0.8s ease;
+    }
+    .grayscale:hover {
+      filter: grayscale(80%);
+      transition: filter 0.8s ease;
+    }
+    .sepia:hover {
+      filter: sepia(90%);
+      transition: filter 0.8s ease;
+    }
+    .saturate:hover {
+      filter: saturate(300%);
+      transition: filter 0.8s ease;
+    }
+    .hue:hover {
+      filter: hue-rotate(280deg);
+      transition: filter 0.15s ease;
+    }
+    .shadow:hover {
+      filter: drop-shadow(5px 5px 15px rgb(4, 25, 142));
+      transition: filter 0.8s ease;
+    }
